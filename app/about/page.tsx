@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight, BookOpen, GraduationCap, MapPin } from "lucide-react";
-import { profile } from "@/lib/portfolio";
-import { SectionHeading } from "@/components/section-heading";
+import { profile } from "../../lib/portfolio";
+import { SectionHeading } from "../../components/section-heading";
 
 export default function AboutPage() {
   return <div className="page container">

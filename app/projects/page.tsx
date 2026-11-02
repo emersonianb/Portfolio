@@ -1,9 +1,9 @@
 "use client";
 import { useMemo, useState } from "react";
 import { Search } from "lucide-react";
-import { projects } from "@/lib/portfolio";
-import { ProjectCard } from "@/components/project-card";
-import { SectionHeading } from "@/components/section-heading";
+import { projects } from "../../lib/portfolio";
+import { ProjectCard } from "../../components/project-card";
+import { SectionHeading } from "../../components/section-heading";
 
 export default function ProjectsPage() {
   const [category, setCategory] = useState("All");
