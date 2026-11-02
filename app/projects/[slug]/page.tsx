@@ -8,8 +8,8 @@ import {
   ExternalLink
 } from "lucide-react";
 
-import { projects } from "@/lib/portfolio";
-import { ProjectGallery } from "@/components/ProjectGallery";
+import { projects } from "../../../lib/portfolio";
+import { ProjectGallery } from "../../../components/ProjectGallery";
 
 export function generateStaticParams() {
   return projects.map(p => ({ slug: p.slug }));
