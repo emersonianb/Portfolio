@@ -1,7 +1,7 @@
 
 import { FileText, ArrowUpRight, ExternalLink } from "lucide-react";
-import { research } from "@/lib/portfolio";
-import { SectionHeading } from "@/components/section-heading";
+import { research } from "../../lib/portfolio";
+import { SectionHeading } from "../../components/section-heading";
 
 export default function ResearchPage() {
   return (

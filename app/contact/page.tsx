@@ -1,6 +1,6 @@
 import { Github, Linkedin, Mail, ArrowUpRight } from "lucide-react";
-import { profile } from "@/lib/portfolio";
-import { SectionHeading } from "@/components/section-heading";
+import { profile } from "../../lib/portfolio";
+import { SectionHeading } from "../../components/section-heading";
 
 export default function ContactPage() {
   return <div className="page container contact-page">

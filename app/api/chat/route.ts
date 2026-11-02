@@ -1,6 +1,6 @@
 
 import { NextRequest, NextResponse } from "next/server";
-import { profile, projects, research } from "@/lib/portfolio";
+import { profile, projects, research } from "../../../lib/portfolio";
 
 export const runtime = "nodejs";
 
