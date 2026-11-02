@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowDown, ArrowUpRight, BrainCircuit, Code2, FlaskConical, Github, Linkedin, Mail, Sparkles } from "lucide-react";
-import { profile, projects } from "@/lib/portfolio";
-import { ProjectCard } from "@/components/project-card";
-import { SectionHeading } from "@/components/section-heading";
+import { profile, projects } from "../lib/portfolio";
+import { ProjectCard } from "../components/project-card";
+import { SectionHeading } from "../components/section-heading";
 
 export default function Home() {
   const featured = projects.filter(p => p.featured);
