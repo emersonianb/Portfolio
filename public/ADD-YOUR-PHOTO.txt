@@ -1,0 +1,1 @@
+Add your portrait here and name the file profile.jpg. The home page uses /profile.jpg.
